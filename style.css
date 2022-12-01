@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: black;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container {
+    background-color: whitesmoke;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+ .password-Display {
+    background-color: aqua;
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius:10px ;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+
+    
+    
+
+}
+
+label {
+    font-weight: bolder;
+}
+
+.number-input {
+    background-color: white;
+    width: 2rem;
+}
+
+.submit {
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-weight: bolder;
+    cursor: pointer;   
+}
+
+.submit:hover {
+    background-color:#FFFFFF33;
+}
+
